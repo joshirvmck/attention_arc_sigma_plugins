@@ -3,7 +3,7 @@
 
 # Build
 /dist
-
+dma-category/node_modules
 # OS
 Thumbs.db
 ehthumbs.db
