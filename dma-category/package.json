@@ -1,0 +1,63 @@
+{
+  "name": "clustering-map",
+  "version": "0.1.0",
+  "homepage": "https://jfaulkner.github.io/dma_map_box_backup",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --force",
+    "build": "vite build",
+    "lint": "eslint . --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@deck.gl/core": "^9.1.13",
+    "@deck.gl/layers": "^9.1.13",
+    "@deck.gl/react": "^9.1.13",
+    "@deck.gl/widgets": "^9.1.13",
+    "@loaders.gl/core": "^4.3.4",
+    "@luma.gl/core": "^9.1.9",
+    "@luma.gl/engine": "^9.1.9",
+    "@luma.gl/shadertools": "^9.1.9",
+    "@sigmacomputing/plugin": "^1.0.6",
+    "copy-to-clipboard": "^3.3.1",
+    "deck.gl": "8.3.11",
+    "mapbox-gl": "^3.10.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-map-gl": "^6.1.1",
+    "supercluster": "^7.1.4",
+    "typescript": "^5.7.3",
+    "web-vitals": "^1.0.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/gh-pages": "^6",
+    "@types/node": "^24.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.24.0",
+    "@typescript-eslint/parser": "^8.24.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "gh-pages": "^6.3.0",
+    "vite": "^6.0.11",
+    "vite-plugin-svgr": "^4.3.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "packageManager": "yarn@4.3.1"
+}
